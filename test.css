@@ -1,0 +1,69 @@
+body{
+    margin: 5px;
+    margin-top: 20px;
+}
+header{
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    line-height:50px;
+    background-color: rgb(41, 237, 11);
+}
+header *{
+    display:inline;
+    height: 50px;
+}
+header ul{
+    padding: 0;
+}
+header li{
+    margin-left:50px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0);
+    max-width:300px;
+    text-align:center;
+    font-family: arial;
+    color: aliceblue;
+}
+.title{
+    color:grey;
+    font-size: 18px;
+}
+.project{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 1600px;
+    text-align: center;
+    font-family:arial ;
+
+}
+.pro{
+    color:grey;
+    font-size: 18px;
+}
+#play{
+    background-image: url("background..jpg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-size: 100vw;
+}
+.quarky1{
+height:350px;
+width: 50px;
+}
+.arduino1{
+    height: 350px;
+    width: 50px;
+}
+.project{
+    background-image: url(background2.webp);
+    background-repeat:no-repeat
+}
+.footer-content{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+}
